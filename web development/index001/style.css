@@ -20,7 +20,6 @@ body
     min-width: 200px;
     max-width: 500px;
     min-height: 500px;
-    flex-shrink: 1;
 }
 
 .im
