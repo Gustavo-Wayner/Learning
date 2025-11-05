@@ -28,7 +28,7 @@ body
     height: 100px;
 }
 
-.pfp
+.pfp-box
 {
     width: 100px;
     height: 100px;
@@ -41,11 +41,17 @@ body
     border-color: rgb(2, 162, 255);
 }
 
+.pfp
+{
+    width: 100px;
+    height: 100px;
+}
+
 
 .top
 {
     display: flex;
-    height: 30%;
+    height: 20%;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -61,13 +67,15 @@ body
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 70%;
+    height: 80%;
     border-radius: 0px 0px 10px 10px;
 }
 .text
 {
+    padding-top: 20px;
     height: 70%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
